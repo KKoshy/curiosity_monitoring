@@ -15,7 +15,7 @@ The script can be executed by using the command.
 `python curiosity_waypoints.py`
 
 The waypoints data fetched by the script can be loaded to the SQLite3 database.
-While loading the database for the first time, the following commands are executed for creation of the tables to store the data
+While loading the database for the first time, the following commands are executed for creation of the tables to store the data,
 
 `python manage.py makemigrations`
 `python manage.py migrate`
