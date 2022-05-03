@@ -1,0 +1,14 @@
+{
+  "data": {
+    "currentMissionInfo": [
+      {
+        "sol": "3454",
+        "target": "Curiosity's Location",
+        "waypointsCount": 929,
+        "visibleWaypointsCount": 40,
+        "distanceDrivenInKm": "27.59",
+        "distanceDrivenInMiles": "17.14"
+      }
+    ]
+  }
+}

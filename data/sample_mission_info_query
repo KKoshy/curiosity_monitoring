@@ -1,0 +1,10 @@
+query{
+  currentMissionInfo{
+    sol
+    target
+    waypointsCount
+    visibleWaypointsCount
+    distanceDrivenInKm
+    distanceDrivenInMiles
+  }
+}

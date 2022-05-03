@@ -1,0 +1,366 @@
+{
+  "data": {
+    "allWayPoints": [
+      {
+        "sol": "3149",
+        "easting": "-2.903m",
+        "northing": "3.774m",
+        "xRelativeToWaypoint": "-0.00004898°",
+        "yRelativeToWaypoint": "0.00006367°",
+        "latitude": "-280971.678m",
+        "longitude": "8144742.680m"
+      },
+      {
+        "sol": "3151",
+        "easting": "-3.809m",
+        "northing": "2.836m",
+        "xRelativeToWaypoint": "-0.00006426°",
+        "yRelativeToWaypoint": "0.00004785°",
+        "latitude": "-280986.889m",
+        "longitude": "8144712.154m"
+      },
+      {
+        "sol": "3154",
+        "easting": "-1.659m",
+        "northing": "3.592m",
+        "xRelativeToWaypoint": "-0.00002799°",
+        "yRelativeToWaypoint": "0.00006060°",
+        "latitude": "-281014.775m",
+        "longitude": "8144673.997m"
+      },
+      {
+        "sol": "3156",
+        "easting": "-3.124m",
+        "northing": "1.482m",
+        "xRelativeToWaypoint": "-0.00005271°",
+        "yRelativeToWaypoint": "0.00002500°",
+        "latitude": "-281045.196m",
+        "longitude": "8144638.384m"
+      },
+      {
+        "sol": "3158",
+        "easting": "-2.421m",
+        "northing": "1.978m",
+        "xRelativeToWaypoint": "-0.00004084°",
+        "yRelativeToWaypoint": "0.00003338°",
+        "latitude": "-281055.336m",
+        "longitude": "8144600.227m"
+      },
+      {
+        "sol": "3183",
+        "easting": "-1.544m",
+        "northing": "1.922m",
+        "xRelativeToWaypoint": "-0.00002605°",
+        "yRelativeToWaypoint": "0.00003243°",
+        "latitude": "-281070.547m",
+        "longitude": "8144549.351m"
+      },
+      {
+        "sol": "3185",
+        "easting": "-3.178m",
+        "northing": "3.470m",
+        "xRelativeToWaypoint": "-0.00005361°",
+        "yRelativeToWaypoint": "0.00005855°",
+        "latitude": "-281070.547m",
+        "longitude": "8144521.370m"
+      },
+      {
+        "sol": "3188",
+        "easting": "-2.980m",
+        "northing": "2.616m",
+        "xRelativeToWaypoint": "-0.00005027°",
+        "yRelativeToWaypoint": "0.00004413°",
+        "latitude": "-281085.757m",
+        "longitude": "8144495.932m"
+      },
+      {
+        "sol": "3190",
+        "easting": "-1.940m",
+        "northing": "2.600m",
+        "xRelativeToWaypoint": "-0.00003274°",
+        "yRelativeToWaypoint": "0.00004387°",
+        "latitude": "-281103.503m",
+        "longitude": "8144467.950m"
+      },
+      {
+        "sol": "3192",
+        "easting": "-2.347m",
+        "northing": "2.244m",
+        "xRelativeToWaypoint": "-0.00003959°",
+        "yRelativeToWaypoint": "0.00003786°",
+        "latitude": "-281103.503m",
+        "longitude": "8144442.512m"
+      },
+      {
+        "sol": "3195",
+        "easting": "-2.681m",
+        "northing": "2.157m",
+        "xRelativeToWaypoint": "-0.00004523°",
+        "yRelativeToWaypoint": "0.00003639°",
+        "latitude": "-281100.968m",
+        "longitude": "8144419.618m"
+      },
+      {
+        "sol": "3199",
+        "easting": "-2.721m",
+        "northing": "3.672m",
+        "xRelativeToWaypoint": "-0.00004590°",
+        "yRelativeToWaypoint": "0.00006196°",
+        "latitude": "-281118.714m",
+        "longitude": "8144373.830m"
+      },
+      {
+        "sol": "3202",
+        "easting": "-3.796m",
+        "northing": "1.406m",
+        "xRelativeToWaypoint": "-0.00006404°",
+        "yRelativeToWaypoint": "0.00002372°",
+        "latitude": "-281133.924m",
+        "longitude": "8144350.935m"
+      },
+      {
+        "sol": "3203",
+        "easting": "-3.381m",
+        "northing": "3.620m",
+        "xRelativeToWaypoint": "-0.00005703°",
+        "yRelativeToWaypoint": "0.00006108°",
+        "latitude": "-281151.670m",
+        "longitude": "8144335.673m"
+      },
+      {
+        "sol": "3206",
+        "easting": "-2.438m",
+        "northing": "3.094m",
+        "xRelativeToWaypoint": "-0.00004113°",
+        "yRelativeToWaypoint": "0.00005219°",
+        "latitude": "-281164.345m",
+        "longitude": "8144302.603m"
+      },
+      {
+        "sol": "3209",
+        "easting": "-1.822m",
+        "northing": "3.657m",
+        "xRelativeToWaypoint": "-0.00003074°",
+        "yRelativeToWaypoint": "0.00006169°",
+        "latitude": "-281164.345m",
+        "longitude": "8144284.797m"
+      },
+      {
+        "sol": "3210",
+        "easting": "-3.758m",
+        "northing": "2.224m",
+        "xRelativeToWaypoint": "-0.00006340°",
+        "yRelativeToWaypoint": "0.00003751°",
+        "latitude": "-281179.556m",
+        "longitude": "8144259.359m"
+      },
+      {
+        "sol": "3211",
+        "easting": "-1.807m",
+        "northing": "3.092m",
+        "xRelativeToWaypoint": "-0.00003049°",
+        "yRelativeToWaypoint": "0.00005217°",
+        "latitude": "-281184.626m",
+        "longitude": "8144244.096m"
+      },
+      {
+        "sol": "3212",
+        "easting": "-1.815m",
+        "northing": "3.600m",
+        "xRelativeToWaypoint": "-0.00003063°",
+        "yRelativeToWaypoint": "0.00006073°",
+        "latitude": "-281204.906m",
+        "longitude": "8144221.202m"
+      },
+      {
+        "sol": "3216",
+        "easting": "-1.585m",
+        "northing": "1.541m",
+        "xRelativeToWaypoint": "-0.00002673°",
+        "yRelativeToWaypoint": "0.00002599°",
+        "latitude": "-281232.792m",
+        "longitude": "8144203.395m"
+      },
+      {
+        "sol": "3217",
+        "easting": "-1.682m",
+        "northing": "3.203m",
+        "xRelativeToWaypoint": "-0.00002838°",
+        "yRelativeToWaypoint": "0.00005404°",
+        "latitude": "-281215.047m",
+        "longitude": "8144162.695m"
+      },
+      {
+        "sol": "3247",
+        "easting": "-3.107m",
+        "northing": "3.559m",
+        "xRelativeToWaypoint": "-0.00005242°",
+        "yRelativeToWaypoint": "0.00006004°",
+        "latitude": "-281204.906m",
+        "longitude": "8144121.994m"
+      },
+      {
+        "sol": "3274",
+        "easting": "-3.290m",
+        "northing": "1.282m",
+        "xRelativeToWaypoint": "-0.00005550°",
+        "yRelativeToWaypoint": "0.00002163°",
+        "latitude": "-281220.117m",
+        "longitude": "8144109.275m"
+      },
+      {
+        "sol": "3277",
+        "easting": "-2.816m",
+        "northing": "2.098m",
+        "xRelativeToWaypoint": "-0.00004752°",
+        "yRelativeToWaypoint": "0.00003539°",
+        "latitude": "-281237.862m",
+        "longitude": "8144106.731m"
+      },
+      {
+        "sol": "3278",
+        "easting": "-1.841m",
+        "northing": "2.018m",
+        "xRelativeToWaypoint": "-0.00003106°",
+        "yRelativeToWaypoint": "0.00003405°",
+        "latitude": "-281258.143m",
+        "longitude": "8144099.100m"
+      },
+      {
+        "sol": "3279",
+        "easting": "-1.532m",
+        "northing": "3.158m",
+        "xRelativeToWaypoint": "-0.00002585°",
+        "yRelativeToWaypoint": "0.00005328°",
+        "latitude": "-281280.959m",
+        "longitude": "8144083.837m"
+      },
+      {
+        "sol": "3280",
+        "easting": "-2.937m",
+        "northing": "1.915m",
+        "xRelativeToWaypoint": "-0.00004955°",
+        "yRelativeToWaypoint": "0.00003231°",
+        "latitude": "-281308.844m",
+        "longitude": "8144068.574m"
+      },
+      {
+        "sol": "3286",
+        "easting": "-2.880m",
+        "northing": "2.821m",
+        "xRelativeToWaypoint": "-0.00004858°",
+        "yRelativeToWaypoint": "0.00004760°",
+        "latitude": "-281359.546m",
+        "longitude": "8144045.680m"
+      },
+      {
+        "sol": "3313",
+        "easting": "-1.996m",
+        "northing": "3.193m",
+        "xRelativeToWaypoint": "-0.00003367°",
+        "yRelativeToWaypoint": "0.00005386°",
+        "latitude": "-281339.265m",
+        "longitude": "8144015.155m"
+      },
+      {
+        "sol": "3454",
+        "easting": "91.850m",
+        "northing": "133.898m",
+        "xRelativeToWaypoint": "0.00154956°",
+        "yRelativeToWaypoint": "0.00225895°",
+        "latitude": "-281382.361m",
+        "longitude": "8144020.242m"
+      },
+      {
+        "sol": "3454",
+        "easting": "91.850m",
+        "northing": "113.618m",
+        "xRelativeToWaypoint": "0.00154956°",
+        "yRelativeToWaypoint": "0.00191680°",
+        "latitude": "-281402.642m",
+        "longitude": "8144020.242m"
+      },
+      {
+        "sol": "3329",
+        "easting": "-3.569m",
+        "northing": "2.943m",
+        "xRelativeToWaypoint": "-0.00006021°",
+        "yRelativeToWaypoint": "0.00004964°",
+        "latitude": "-281445.738m",
+        "longitude": "8144025.330m"
+      },
+      {
+        "sol": "3331",
+        "easting": "-1.394m",
+        "northing": "1.404m",
+        "xRelativeToWaypoint": "-0.00002352°",
+        "yRelativeToWaypoint": "0.00002369°",
+        "latitude": "-281488.834m",
+        "longitude": "8144022.786m"
+      },
+      {
+        "sol": "3333",
+        "easting": "-1.821m",
+        "northing": "3.272m",
+        "xRelativeToWaypoint": "-0.00003071°",
+        "yRelativeToWaypoint": "0.00005521°",
+        "latitude": "-281542.070m",
+        "longitude": "8144007.523m"
+      },
+      {
+        "sol": "3351",
+        "easting": "-2.244m",
+        "northing": "2.168m",
+        "xRelativeToWaypoint": "-0.00003785°",
+        "yRelativeToWaypoint": "0.00003657°",
+        "latitude": "-281618.122m",
+        "longitude": "8143984.629m"
+      },
+      {
+        "sol": "3376",
+        "easting": "-2.450m",
+        "northing": "2.192m",
+        "xRelativeToWaypoint": "-0.00004134°",
+        "yRelativeToWaypoint": "0.00003697°",
+        "latitude": "-281620.657m",
+        "longitude": "8143954.104m"
+      },
+      {
+        "sol": "3379",
+        "easting": "-3.421m",
+        "northing": "3.705m",
+        "xRelativeToWaypoint": "-0.00005772°",
+        "yRelativeToWaypoint": "0.00006251°",
+        "latitude": "-281582.631m",
+        "longitude": "8143989.717m"
+      },
+      {
+        "sol": "3381",
+        "easting": "-1.734m",
+        "northing": "2.923m",
+        "xRelativeToWaypoint": "-0.00002926°",
+        "yRelativeToWaypoint": "0.00004931°",
+        "latitude": "-281542.070m",
+        "longitude": "8143966.823m"
+      },
+      {
+        "sol": "3424",
+        "easting": "-2.869m",
+        "northing": "2.666m",
+        "xRelativeToWaypoint": "-0.00004840°",
+        "yRelativeToWaypoint": "0.00004498°",
+        "latitude": "-281476.159m",
+        "longitude": "8143811.651m"
+      },
+      {
+        "sol": "3454",
+        "easting": "-2.271m",
+        "northing": "73.057m",
+        "xRelativeToWaypoint": "-0.00003831°",
+        "yRelativeToWaypoint": "0.00123251°",
+        "latitude": "-281443.203m",
+        "longitude": "8143926.122m"
+      }
+    ]
+  }
+}
