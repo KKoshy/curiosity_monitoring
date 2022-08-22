@@ -1,0 +1,885 @@
+[
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3145",
+    "fields": {
+      "sol": "3145",
+      "longitude": "8144829.169m",
+      "latitude": "-280943.792m",
+      "easting": "-2.197m",
+      "northing": "3.392m",
+      "x_relative_to_waypoint": "-0.00003706\u00b0",
+      "y_relative_to_waypoint": "0.00005722\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3147",
+    "fields": {
+      "sol": "3147",
+      "longitude": "8144801.187m",
+      "latitude": "-280969.143m",
+      "easting": "-1.958m",
+      "northing": "3.524m",
+      "x_relative_to_waypoint": "-0.00003303\u00b0",
+      "y_relative_to_waypoint": "0.00005945\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3149",
+    "fields": {
+      "sol": "3149",
+      "longitude": "8144742.680m",
+      "latitude": "-280971.678m",
+      "easting": "-2.903m",
+      "northing": "3.774m",
+      "x_relative_to_waypoint": "-0.00004898\u00b0",
+      "y_relative_to_waypoint": "0.00006367\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3151",
+    "fields": {
+      "sol": "3151",
+      "longitude": "8144712.154m",
+      "latitude": "-280986.889m",
+      "easting": "-3.809m",
+      "northing": "2.836m",
+      "x_relative_to_waypoint": "-0.00006426\u00b0",
+      "y_relative_to_waypoint": "0.00004785\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3154",
+    "fields": {
+      "sol": "3154",
+      "longitude": "8144673.997m",
+      "latitude": "-281014.775m",
+      "easting": "-1.659m",
+      "northing": "3.592m",
+      "x_relative_to_waypoint": "-0.00002799\u00b0",
+      "y_relative_to_waypoint": "0.00006060\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3156",
+    "fields": {
+      "sol": "3156",
+      "longitude": "8144638.384m",
+      "latitude": "-281045.196m",
+      "easting": "-3.124m",
+      "northing": "1.482m",
+      "x_relative_to_waypoint": "-0.00005271\u00b0",
+      "y_relative_to_waypoint": "0.00002500\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3158",
+    "fields": {
+      "sol": "3158",
+      "longitude": "8144600.227m",
+      "latitude": "-281055.336m",
+      "easting": "-2.421m",
+      "northing": "1.978m",
+      "x_relative_to_waypoint": "-0.00004084\u00b0",
+      "y_relative_to_waypoint": "0.00003338\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3183",
+    "fields": {
+      "sol": "3183",
+      "longitude": "8144549.351m",
+      "latitude": "-281070.547m",
+      "easting": "-1.544m",
+      "northing": "1.922m",
+      "x_relative_to_waypoint": "-0.00002605\u00b0",
+      "y_relative_to_waypoint": "0.00003243\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3185",
+    "fields": {
+      "sol": "3185",
+      "longitude": "8144521.370m",
+      "latitude": "-281070.547m",
+      "easting": "-3.178m",
+      "northing": "3.470m",
+      "x_relative_to_waypoint": "-0.00005361\u00b0",
+      "y_relative_to_waypoint": "0.00005855\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3188",
+    "fields": {
+      "sol": "3188",
+      "longitude": "8144495.932m",
+      "latitude": "-281085.757m",
+      "easting": "-2.980m",
+      "northing": "2.616m",
+      "x_relative_to_waypoint": "-0.00005027\u00b0",
+      "y_relative_to_waypoint": "0.00004413\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3190",
+    "fields": {
+      "sol": "3190",
+      "longitude": "8144467.950m",
+      "latitude": "-281103.503m",
+      "easting": "-1.940m",
+      "northing": "2.600m",
+      "x_relative_to_waypoint": "-0.00003274\u00b0",
+      "y_relative_to_waypoint": "0.00004387\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3192",
+    "fields": {
+      "sol": "3192",
+      "longitude": "8144442.512m",
+      "latitude": "-281103.503m",
+      "easting": "-2.347m",
+      "northing": "2.244m",
+      "x_relative_to_waypoint": "-0.00003959\u00b0",
+      "y_relative_to_waypoint": "0.00003786\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3195",
+    "fields": {
+      "sol": "3195",
+      "longitude": "8144419.618m",
+      "latitude": "-281100.968m",
+      "easting": "-2.681m",
+      "northing": "2.157m",
+      "x_relative_to_waypoint": "-0.00004523\u00b0",
+      "y_relative_to_waypoint": "0.00003639\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3199",
+    "fields": {
+      "sol": "3199",
+      "longitude": "8144373.830m",
+      "latitude": "-281118.714m",
+      "easting": "-2.721m",
+      "northing": "3.672m",
+      "x_relative_to_waypoint": "-0.00004590\u00b0",
+      "y_relative_to_waypoint": "0.00006196\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3202",
+    "fields": {
+      "sol": "3202",
+      "longitude": "8144350.935m",
+      "latitude": "-281133.924m",
+      "easting": "-3.796m",
+      "northing": "1.406m",
+      "x_relative_to_waypoint": "-0.00006404\u00b0",
+      "y_relative_to_waypoint": "0.00002372\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3203",
+    "fields": {
+      "sol": "3203",
+      "longitude": "8144335.673m",
+      "latitude": "-281151.670m",
+      "easting": "-3.381m",
+      "northing": "3.620m",
+      "x_relative_to_waypoint": "-0.00005703\u00b0",
+      "y_relative_to_waypoint": "0.00006108\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3206",
+    "fields": {
+      "sol": "3206",
+      "longitude": "8144302.603m",
+      "latitude": "-281164.345m",
+      "easting": "-2.438m",
+      "northing": "3.094m",
+      "x_relative_to_waypoint": "-0.00004113\u00b0",
+      "y_relative_to_waypoint": "0.00005219\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3209",
+    "fields": {
+      "sol": "3209",
+      "longitude": "8144284.797m",
+      "latitude": "-281164.345m",
+      "easting": "-1.822m",
+      "northing": "3.657m",
+      "x_relative_to_waypoint": "-0.00003074\u00b0",
+      "y_relative_to_waypoint": "0.00006169\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3210",
+    "fields": {
+      "sol": "3210",
+      "longitude": "8144259.359m",
+      "latitude": "-281179.556m",
+      "easting": "-3.758m",
+      "northing": "2.224m",
+      "x_relative_to_waypoint": "-0.00006340\u00b0",
+      "y_relative_to_waypoint": "0.00003751\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3211",
+    "fields": {
+      "sol": "3211",
+      "longitude": "8144244.096m",
+      "latitude": "-281184.626m",
+      "easting": "-1.807m",
+      "northing": "3.092m",
+      "x_relative_to_waypoint": "-0.00003049\u00b0",
+      "y_relative_to_waypoint": "0.00005217\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3212",
+    "fields": {
+      "sol": "3212",
+      "longitude": "8144221.202m",
+      "latitude": "-281204.906m",
+      "easting": "-1.815m",
+      "northing": "3.600m",
+      "x_relative_to_waypoint": "-0.00003063\u00b0",
+      "y_relative_to_waypoint": "0.00006073\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3216",
+    "fields": {
+      "sol": "3216",
+      "longitude": "8144203.395m",
+      "latitude": "-281232.792m",
+      "easting": "-1.585m",
+      "northing": "1.541m",
+      "x_relative_to_waypoint": "-0.00002673\u00b0",
+      "y_relative_to_waypoint": "0.00002599\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3217",
+    "fields": {
+      "sol": "3217",
+      "longitude": "8144162.695m",
+      "latitude": "-281215.047m",
+      "easting": "-1.682m",
+      "northing": "3.203m",
+      "x_relative_to_waypoint": "-0.00002838\u00b0",
+      "y_relative_to_waypoint": "0.00005404\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3247",
+    "fields": {
+      "sol": "3247",
+      "longitude": "8144121.994m",
+      "latitude": "-281204.906m",
+      "easting": "-3.107m",
+      "northing": "3.559m",
+      "x_relative_to_waypoint": "-0.00005242\u00b0",
+      "y_relative_to_waypoint": "0.00006004\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3274",
+    "fields": {
+      "sol": "3274",
+      "longitude": "8144109.275m",
+      "latitude": "-281220.117m",
+      "easting": "-3.290m",
+      "northing": "1.282m",
+      "x_relative_to_waypoint": "-0.00005550\u00b0",
+      "y_relative_to_waypoint": "0.00002163\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3277",
+    "fields": {
+      "sol": "3277",
+      "longitude": "8144106.731m",
+      "latitude": "-281237.862m",
+      "easting": "-2.816m",
+      "northing": "2.098m",
+      "x_relative_to_waypoint": "-0.00004752\u00b0",
+      "y_relative_to_waypoint": "0.00003539\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3278",
+    "fields": {
+      "sol": "3278",
+      "longitude": "8144099.100m",
+      "latitude": "-281258.143m",
+      "easting": "-1.841m",
+      "northing": "2.018m",
+      "x_relative_to_waypoint": "-0.00003106\u00b0",
+      "y_relative_to_waypoint": "0.00003405\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3279",
+    "fields": {
+      "sol": "3279",
+      "longitude": "8144083.837m",
+      "latitude": "-281280.959m",
+      "easting": "-1.532m",
+      "northing": "3.158m",
+      "x_relative_to_waypoint": "-0.00002585\u00b0",
+      "y_relative_to_waypoint": "0.00005328\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3280",
+    "fields": {
+      "sol": "3280",
+      "longitude": "8144068.574m",
+      "latitude": "-281308.844m",
+      "easting": "-2.937m",
+      "northing": "1.915m",
+      "x_relative_to_waypoint": "-0.00004955\u00b0",
+      "y_relative_to_waypoint": "0.00003231\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3286",
+    "fields": {
+      "sol": "3286",
+      "longitude": "8144045.680m",
+      "latitude": "-281359.546m",
+      "easting": "-2.880m",
+      "northing": "2.821m",
+      "x_relative_to_waypoint": "-0.00004858\u00b0",
+      "y_relative_to_waypoint": "0.00004760\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3313",
+    "fields": {
+      "sol": "3313",
+      "longitude": "8144015.155m",
+      "latitude": "-281339.265m",
+      "easting": "-1.996m",
+      "northing": "3.193m",
+      "x_relative_to_waypoint": "-0.00003367\u00b0",
+      "y_relative_to_waypoint": "0.00005386\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3318",
+    "fields": {
+      "sol": "3318",
+      "longitude": "8144020.242m",
+      "latitude": "-281382.361m",
+      "easting": "-2.984m",
+      "northing": "3.343m",
+      "x_relative_to_waypoint": "-0.00005034\u00b0",
+      "y_relative_to_waypoint": "0.00005641\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3319",
+    "fields": {
+      "sol": "3319",
+      "longitude": "8144020.242m",
+      "latitude": "-281402.642m",
+      "easting": "-3.428m",
+      "northing": "3.133m",
+      "x_relative_to_waypoint": "-0.00005784\u00b0",
+      "y_relative_to_waypoint": "0.00005285\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3324",
+    "fields": {
+      "sol": "3324",
+      "longitude": "8144004.979m",
+      "latitude": "-281412.782m",
+      "easting": "-1.294m",
+      "northing": "3.106m",
+      "x_relative_to_waypoint": "-0.00002183\u00b0",
+      "y_relative_to_waypoint": "0.00005240\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3326",
+    "fields": {
+      "sol": "3326",
+      "longitude": "8144010.067m",
+      "latitude": "-281427.993m",
+      "easting": "-2.863m",
+      "northing": "2.842m",
+      "x_relative_to_waypoint": "-0.00004830\u00b0",
+      "y_relative_to_waypoint": "0.00004795\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3329",
+    "fields": {
+      "sol": "3329",
+      "longitude": "8144025.330m",
+      "latitude": "-281445.738m",
+      "easting": "-3.569m",
+      "northing": "2.943m",
+      "x_relative_to_waypoint": "-0.00006021\u00b0",
+      "y_relative_to_waypoint": "0.00004964\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3331",
+    "fields": {
+      "sol": "3331",
+      "longitude": "8144022.786m",
+      "latitude": "-281488.834m",
+      "easting": "-1.394m",
+      "northing": "1.404m",
+      "x_relative_to_waypoint": "-0.00002352\u00b0",
+      "y_relative_to_waypoint": "0.00002369\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3333",
+    "fields": {
+      "sol": "3333",
+      "longitude": "8144007.523m",
+      "latitude": "-281542.070m",
+      "easting": "-1.821m",
+      "northing": "3.272m",
+      "x_relative_to_waypoint": "-0.00003071\u00b0",
+      "y_relative_to_waypoint": "0.00005521\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3351",
+    "fields": {
+      "sol": "3351",
+      "longitude": "8143984.629m",
+      "latitude": "-281618.122m",
+      "easting": "-2.244m",
+      "northing": "2.168m",
+      "x_relative_to_waypoint": "-0.00003785\u00b0",
+      "y_relative_to_waypoint": "0.00003657\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3376",
+    "fields": {
+      "sol": "3376",
+      "longitude": "8143954.104m",
+      "latitude": "-281620.657m",
+      "easting": "-2.450m",
+      "northing": "2.192m",
+      "x_relative_to_waypoint": "-0.00004134\u00b0",
+      "y_relative_to_waypoint": "0.00003697\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3381",
+    "fields": {
+      "sol": "3381",
+      "longitude": "8143966.823m",
+      "latitude": "-281542.070m",
+      "easting": "-1.734m",
+      "northing": "2.923m",
+      "x_relative_to_waypoint": "-0.00002926\u00b0",
+      "y_relative_to_waypoint": "0.00004931\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3383",
+    "fields": {
+      "sol": "3383",
+      "longitude": "8143951.560m",
+      "latitude": "-281524.325m",
+      "easting": "-1.633m",
+      "northing": "3.282m",
+      "x_relative_to_waypoint": "-0.00002755\u00b0",
+      "y_relative_to_waypoint": "0.00005536\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3424",
+    "fields": {
+      "sol": "3424",
+      "longitude": "8143811.651m",
+      "latitude": "-281476.159m",
+      "easting": "-2.869m",
+      "northing": "2.666m",
+      "x_relative_to_waypoint": "-0.00004840\u00b0",
+      "y_relative_to_waypoint": "0.00004498\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3435",
+    "fields": {
+      "sol": "3435",
+      "longitude": "8143832.001m",
+      "latitude": "-281468.554m",
+      "easting": "-1.700m",
+      "northing": "3.660m",
+      "x_relative_to_waypoint": "-0.00002867\u00b0",
+      "y_relative_to_waypoint": "0.00006175\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3440",
+    "fields": {
+      "sol": "3440",
+      "longitude": "8143865.071m",
+      "latitude": "-281498.974m",
+      "easting": "-2.458m",
+      "northing": "1.730m",
+      "x_relative_to_waypoint": "-0.00004147\u00b0",
+      "y_relative_to_waypoint": "0.00002919\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3449",
+    "fields": {
+      "sol": "3449",
+      "longitude": "8143890.509m",
+      "latitude": "-281509.115m",
+      "easting": "-3.089m",
+      "northing": "2.860m",
+      "x_relative_to_waypoint": "-0.00005212\u00b0",
+      "y_relative_to_waypoint": "0.00004824\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3456",
+    "fields": {
+      "sol": "3456",
+      "longitude": "8143931.209m",
+      "latitude": "-281521.790m",
+      "easting": "-3.389m",
+      "northing": "1.317m",
+      "x_relative_to_waypoint": "-0.00005717\u00b0",
+      "y_relative_to_waypoint": "0.00002222\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3458",
+    "fields": {
+      "sol": "3458",
+      "longitude": "8143936.297m",
+      "latitude": "-281539.535m",
+      "easting": "-3.441m",
+      "northing": "3.575m",
+      "x_relative_to_waypoint": "-0.00005804\u00b0",
+      "y_relative_to_waypoint": "0.00006031\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3461",
+    "fields": {
+      "sol": "3461",
+      "longitude": "8143961.735m",
+      "latitude": "-281567.421m",
+      "easting": "-2.862m",
+      "northing": "1.455m",
+      "x_relative_to_waypoint": "-0.00004829\u00b0",
+      "y_relative_to_waypoint": "0.00002455\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3462",
+    "fields": {
+      "sol": "3462",
+      "longitude": "8143992.260m",
+      "latitude": "-281582.631m",
+      "easting": "-3.338m",
+      "northing": "2.481m",
+      "x_relative_to_waypoint": "-0.00005631\u00b0",
+      "y_relative_to_waypoint": "0.00004185\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3463",
+    "fields": {
+      "sol": "3463",
+      "longitude": "8144025.330m",
+      "latitude": "-281620.657m",
+      "easting": "-2.691m",
+      "northing": "1.541m",
+      "x_relative_to_waypoint": "-0.00004541\u00b0",
+      "y_relative_to_waypoint": "0.00002599\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3467",
+    "fields": {
+      "sol": "3467",
+      "longitude": "8144043.136m",
+      "latitude": "-281653.613m",
+      "easting": "-3.225m",
+      "northing": "2.243m",
+      "x_relative_to_waypoint": "-0.00005440\u00b0",
+      "y_relative_to_waypoint": "0.00003784\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3469",
+    "fields": {
+      "sol": "3469",
+      "longitude": "8144063.487m",
+      "latitude": "-281686.569m",
+      "easting": "-1.996m",
+      "northing": "3.795m",
+      "x_relative_to_waypoint": "-0.00003368\u00b0",
+      "y_relative_to_waypoint": "0.00006403\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3476",
+    "fields": {
+      "sol": "3476",
+      "longitude": "8144066.030m",
+      "latitude": "-281722.059m",
+      "easting": "-2.707m",
+      "northing": "3.664m",
+      "x_relative_to_waypoint": "-0.00004566\u00b0",
+      "y_relative_to_waypoint": "0.00006181\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3478",
+    "fields": {
+      "sol": "3478",
+      "longitude": "8144058.399m",
+      "latitude": "-281752.480m",
+      "easting": "-2.881m",
+      "northing": "3.702m",
+      "x_relative_to_waypoint": "-0.00004861\u00b0",
+      "y_relative_to_waypoint": "0.00006245\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3481",
+    "fields": {
+      "sol": "3481",
+      "longitude": "8144073.662m",
+      "latitude": "-281765.155m",
+      "easting": "-1.388m",
+      "northing": "3.714m",
+      "x_relative_to_waypoint": "-0.00002342\u00b0",
+      "y_relative_to_waypoint": "0.00006266\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3483",
+    "fields": {
+      "sol": "3483",
+      "longitude": "8144088.925m",
+      "latitude": "-281785.435m",
+      "easting": "-1.365m",
+      "northing": "2.375m",
+      "x_relative_to_waypoint": "-0.00002302\u00b0",
+      "y_relative_to_waypoint": "0.00004007\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3485",
+    "fields": {
+      "sol": "3485",
+      "longitude": "8144094.012m",
+      "latitude": "-281823.461m",
+      "easting": "-3.515m",
+      "northing": "2.370m",
+      "x_relative_to_waypoint": "-0.00005929\u00b0",
+      "y_relative_to_waypoint": "0.00003998\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3489",
+    "fields": {
+      "sol": "3489",
+      "longitude": "8144119.450m",
+      "latitude": "-281828.531m",
+      "easting": "-1.970m",
+      "northing": "1.370m",
+      "x_relative_to_waypoint": "-0.00003324\u00b0",
+      "y_relative_to_waypoint": "0.00002312\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3492",
+    "fields": {
+      "sol": "3492",
+      "longitude": "8144127.082m",
+      "latitude": "-281846.276m",
+      "easting": "-2.430m",
+      "northing": "2.234m",
+      "x_relative_to_waypoint": "-0.00004099\u00b0",
+      "y_relative_to_waypoint": "0.00003768\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3504",
+    "fields": {
+      "sol": "3504",
+      "longitude": "8144132.169m",
+      "latitude": "-281876.697m",
+      "easting": "-3.744m",
+      "northing": "3.353m",
+      "x_relative_to_waypoint": "-0.00006316\u00b0",
+      "y_relative_to_waypoint": "0.00005657\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3509",
+    "fields": {
+      "sol": "3509",
+      "longitude": "8144152.519m",
+      "latitude": "-281884.302m",
+      "easting": "-2.717m",
+      "northing": "3.430m",
+      "x_relative_to_waypoint": "-0.00004584\u00b0",
+      "y_relative_to_waypoint": "0.00005787\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3530",
+    "fields": {
+      "sol": "3530",
+      "longitude": "8144149.976m",
+      "latitude": "-281909.652m",
+      "easting": "-2.653m",
+      "northing": "1.299m",
+      "x_relative_to_waypoint": "-0.00004475\u00b0",
+      "y_relative_to_waypoint": "0.00002191\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3533",
+    "fields": {
+      "sol": "3533",
+      "longitude": "8144167.782m",
+      "latitude": "-281962.888m",
+      "easting": "-3.417m",
+      "northing": "1.909m",
+      "x_relative_to_waypoint": "-0.00005765\u00b0",
+      "y_relative_to_waypoint": "0.00003220\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3537",
+    "fields": {
+      "sol": "3537",
+      "longitude": "8144155.063m",
+      "latitude": "-281988.238m",
+      "easting": "-1.981m",
+      "northing": "2.569m",
+      "x_relative_to_waypoint": "-0.00003342\u00b0",
+      "y_relative_to_waypoint": "0.00004334\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3540",
+    "fields": {
+      "sol": "3540",
+      "longitude": "8144165.238m",
+      "latitude": "-281998.378m",
+      "easting": "-1.930m",
+      "northing": "1.973m",
+      "x_relative_to_waypoint": "-0.00003256\u00b0",
+      "y_relative_to_waypoint": "0.00003328\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.curiositywaypoint",
+    "pk": "3567",
+    "fields": {
+      "sol": "3567",
+      "longitude": "8144272.078m",
+      "latitude": "-282023.729m",
+      "easting": "-2.485m",
+      "northing": "74.356m",
+      "x_relative_to_waypoint": "-0.00004192\u00b0",
+      "y_relative_to_waypoint": "0.00125442\u00b0"
+    }
+  },
+  {
+    "model": "curiosity.currentmission",
+    "pk": 1,
+    "fields": {
+      "target": "Curiosity's Location",
+      "sol": "3567",
+      "distance_driven_in_miles": "17.73",
+      "distance_driven_in_km": "28.53",
+      "waypoints_count": 970,
+      "visible_waypoints_count": 67
+    }
+  }
+]

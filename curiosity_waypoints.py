@@ -5,27 +5,21 @@ https://mars.nasa.gov/msl/mission/where-is-the-rover/
 
 """
 
+import logging
+import json
+import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.support.ui import WebDriverWait as wait
 from webdriver_manager.chrome import ChromeDriverManager
-import json
-import re
-import os
+from data.common import CURIOSITY_JSON, CURIOSITY_MISSION_MODEL, \
+    CURIOSITY_WAYPOINT_MODEL, CURIOSITY_ROVER_MISSION_URL
 
-CURIOSITY_ROVER_MISSION_URL = "https://mars.nasa.gov/msl/mission/where-is-the-rover/"
-ROVER_MAP = '//iframe[@src="https://mars.nasa.gov/maps/location/?mission=MSL&site=NOW"]'
-MISSION = 'topBarTitle'
-WAYPOINTS = "path.waypoints.leaflet-interactive"
-MOUSE_LONG_LAT = 'p#mouseLngLat'
-POSITION_DATA = 'div.mouseLngLat'
-SOL_VALUE = "mainDescPointInner"
-CURRENT_ROVER_POSITION = 'img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive'
-CURIOSITY_JSON = os.path.join("monitoring", "curiosity", "fixtures", "curiosity_rover_data.json")
-CURIOSITY_WAYPOINT_MODEL = 'curiosity.curiositywaypoint'
-CURIOSITY_MISSION_MODEL = 'curiosity.currentmission'
+logging.basicConfig(format='%(asctime)s %(name)s %(levelname)s %(processName)s '
+                           '%(threadName)s - %(message)s',
+                    datefmt='%Y-%m-%d %H:%M:%S', level=logging.INFO)
 
 
 class CuriosityWaypoints:
@@ -33,6 +27,16 @@ class CuriosityWaypoints:
     Class to collect Curiosity Waypoint data
 
     """
+    ROVER_MAP = (By.XPATH,
+                 '//iframe[@src="https://mars.nasa.gov/maps/location/?mission=MSL&site=NOW"]')
+    MISSION = (By.ID, 'topBarTitle')
+    WAYPOINTS = (By.XPATH,
+                 "//*[name()='svg']/*[name()='g']/*[name()='path'][contains(@class, 'waypoints')]")
+    MOUSE_LONG_LAT = (By.CSS_SELECTOR, 'p#mouseLngLat')
+    POSITION_DATA = (By.CSS_SELECTOR, 'div.mouseLngLat')
+    SOL_VALUE = (By.ID, "mainDescPointInner")
+    CURRENT_ROVER_POSITION = (By.CSS_SELECTOR,
+                              'img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive')
 
     def __init__(self):
         self.driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
@@ -57,7 +61,7 @@ class CuriosityWaypoints:
 
         """
         long_lat.click()
-        position_value = self.driver.find_element(By.CSS_SELECTOR, MOUSE_LONG_LAT)
+        position_value = self.driver.find_element(*self.MOUSE_LONG_LAT)
         return position_value.text.split(", ")
 
     def get_waypoint_data(self):
@@ -71,16 +75,18 @@ class CuriosityWaypoints:
         waypoint_data_fields = {'sol': self.get_sol_value()}
 
         # Longitude and Latitude of waypoint
-        long_lat = self.driver.find_element(By.CSS_SELECTOR, POSITION_DATA)
+        long_lat = self.driver.find_element(*self.POSITION_DATA)
         wait(self.driver, 15).until(EC.element_to_be_clickable(long_lat))
-        waypoint_data_fields['longitude'], waypoint_data_fields['latitude'] = self.get_position_value(long_lat)
+        waypoint_data_fields['longitude'], waypoint_data_fields['latitude'] = \
+            self.get_position_value(long_lat)
 
         # Easting and Northing of waypoint
-        waypoint_data_fields['easting'], waypoint_data_fields['northing'] = self.get_position_value(long_lat)
+        waypoint_data_fields['easting'], waypoint_data_fields['northing'] = \
+            self.get_position_value(long_lat)
 
         # Relative distance to waypoint
-        waypoint_data_fields['x_relative_to_waypoint'], waypoint_data_fields['y_relative_to_waypoint'] = \
-            self.get_position_value(long_lat)
+        waypoint_data_fields['x_relative_to_waypoint'], \
+        waypoint_data_fields['y_relative_to_waypoint'] = self.get_position_value(long_lat)
 
         return waypoint_data_fields
 
@@ -90,8 +96,9 @@ class CuriosityWaypoints:
         :return: sol value
 
         """
-        wait(self.driver, 10).until(EC.presence_of_element_located((By.ID, SOL_VALUE)))
-        waypoint_id = self.driver.find_element(By.ID, SOL_VALUE)
+        # import pdb; pdb.set_trace()
+        wait(self.driver, 10).until(EC.presence_of_element_located(self.SOL_VALUE))
+        waypoint_id = self.driver.find_element(*self.SOL_VALUE)
         return re.search(r': (\d*)', waypoint_id.text).groups()[0]
 
     def get_current_position_data(self):
@@ -101,10 +108,10 @@ class CuriosityWaypoints:
 
         """
         # adding current sol data
-        wait(self.driver, 15).until(EC.element_to_be_clickable((By.CSS_SELECTOR, CURRENT_ROVER_POSITION)))
-        current_position = self.driver.find_element(By.CSS_SELECTOR, CURRENT_ROVER_POSITION)
+        wait(self.driver, 15).until(EC.element_to_be_clickable(self.CURRENT_ROVER_POSITION))
+        current_position = self.driver.find_element(*self.CURRENT_ROVER_POSITION)
         current_position.click()
-        current_position_value = {'model': CURIOSITY_WAYPOINT_MODEL, 'pk': self.visible_waypoint_count + 1,
+        current_position_value = {'model': CURIOSITY_WAYPOINT_MODEL, 'pk': self.get_sol_value(),
                                   'fields': self.get_waypoint_data()}
         return current_position_value
 
@@ -115,8 +122,9 @@ class CuriosityWaypoints:
         :return: None
 
         """
-        wait(self.driver, 15).until(EC.presence_of_element_located((By.CSS_SELECTOR, WAYPOINTS)))
-        waypoints = self.driver.find_elements(By.CSS_SELECTOR, WAYPOINTS)
+        logging.info("Traversing Waypoints available on the map")
+        wait(self.driver, 15).until(EC.presence_of_element_located(self.WAYPOINTS))
+        waypoints = self.driver.find_elements(*self.WAYPOINTS)
         self.waypoints_count = len(waypoints)
         for waypoint in waypoints:
             if waypoint.is_displayed():
@@ -126,10 +134,9 @@ class CuriosityWaypoints:
                     self.visible_waypoint_count += 1
                     # Waypoint data collection
                     waypoint_data = {'model': CURIOSITY_WAYPOINT_MODEL,
-                                     'pk': self.visible_waypoint_count,
+                                     'pk': self.get_sol_value(),
                                      'fields': self.get_waypoint_data()}
                     self.mission_data.append(waypoint_data)
-
                 except ElementClickInterceptedException:
                     print("Skipping a waypoint")
 
@@ -143,7 +150,7 @@ class CuriosityWaypoints:
 
         """
         # obtaining the title from the map -> Curiosity's Location
-        cu_title = self.driver.find_element(By.ID, MISSION)
+        cu_title = self.driver.find_element(*self.MISSION)
         mission_current_info = {"target": cu_title.text}
 
         # obtaining current sol data from the map
@@ -152,7 +159,8 @@ class CuriosityWaypoints:
         mission_current_info["sol"] = sol
 
         # obtaining distance driven
-        distance_driven_in_miles = re.search(r'Distance Driven (\d*.\d*) miles ', sol_data).groups()[0]
+        distance_driven_in_miles = \
+            re.search(r'Distance Driven (\d*.\d*) miles ', sol_data).groups()[0]
         mission_current_info["distance_driven_in_miles"] = distance_driven_in_miles
 
         distance_driven_in_km = re.search(r' (\d*.\d*) km', sol_data).groups()[0]
@@ -170,10 +178,11 @@ class CuriosityWaypoints:
         :return: None
 
         """
+        logging.info("Loading Curiosity Rover map")
         self.driver.get(CURIOSITY_ROVER_MISSION_URL)
 
         # switching to the map iframe of curiosity
-        iframe = self.driver.find_element(By.XPATH, ROVER_MAP)
+        iframe = self.driver.find_element(*self.ROVER_MAP)
         wait(self.driver, 15).until(EC.frame_to_be_available_and_switch_to_it(iframe))
 
     def collect_curiosity_data(self):
