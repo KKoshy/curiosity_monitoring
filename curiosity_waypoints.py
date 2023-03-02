@@ -96,7 +96,6 @@ class CuriosityWaypoints:
         :return: sol value
 
         """
-        # import pdb; pdb.set_trace()
         wait(self.driver, 10).until(EC.presence_of_element_located(self.SOL_VALUE))
         waypoint_id = self.driver.find_element(*self.SOL_VALUE)
         return re.search(r': (\d*)', waypoint_id.text).groups()[0]
@@ -107,10 +106,10 @@ class CuriosityWaypoints:
         :return: current_position_value
 
         """
-        # adding current sol data
-        wait(self.driver, 15).until(EC.element_to_be_clickable(self.CURRENT_ROVER_POSITION))
-        current_position = self.driver.find_element(*self.CURRENT_ROVER_POSITION)
-        current_position.click()
+        # adding current sol data; commented to neglect.
+        # wait(self.driver, 15).until(EC.element_to_be_clickable(self.CURRENT_ROVER_POSITION))
+        # current_position = self.driver.find_element(*self.CURRENT_ROVER_POSITION)
+        # current_position.click()
         current_position_value = {'model': CURIOSITY_WAYPOINT_MODEL, 'pk': self.get_sol_value(),
                                   'fields': self.get_waypoint_data()}
         return current_position_value
