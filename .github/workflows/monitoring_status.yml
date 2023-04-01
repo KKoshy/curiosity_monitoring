@@ -1,8 +1,8 @@
 name: Curiosity Monitoring Status 
 run-name: This is being automatically tested out by GitHub Actions 🚀
 on:
-  schedule:
-    - cron: '*/10 * * * *'
+#   schedule:
+#     - cron: '*/10 * * * *'
   workflow_dispatch:
 jobs:
   Explore-GitHub-Actions:
