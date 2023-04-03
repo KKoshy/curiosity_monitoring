@@ -14,6 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.support.ui import WebDriverWait as wait
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
 from data.common import CURIOSITY_JSON, CURIOSITY_MISSION_MODEL, \
     CURIOSITY_WAYPOINT_MODEL, CURIOSITY_ROVER_MISSION_URL
 
@@ -39,7 +40,9 @@ class CuriosityWaypoints:
                               'img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive')
 
     def __init__(self):
-        self.driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.add_argument('--headless')
+        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
         self.mission_data = []
         self.waypoints_count = 0
         self.visible_waypoint_count = 0
