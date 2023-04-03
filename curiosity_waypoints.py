@@ -40,7 +40,9 @@ class CuriosityWaypoints:
                               'img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-interactive')
 
     def __init__(self):
-        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.add_argument('--headless')
+        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
         self.mission_data = []
         self.waypoints_count = 0
         self.visible_waypoint_count = 0
