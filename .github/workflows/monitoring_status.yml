@@ -1,11 +1,11 @@
 name: Curiosity Monitoring Status 
 run-name: This is being automatically tested out by GitHub Actions 🚀
 on:
-#   schedule:
-#     - cron: '*/10 * * * *'
+  schedule:
+    - cron: '0 7 * * *'
   workflow_dispatch:
 jobs:
-  Explore-GitHub-Actions:
+  Monitor-Curiosity-Rover-Status:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
